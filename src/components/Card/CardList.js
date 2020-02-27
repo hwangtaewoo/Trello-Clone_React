@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { MdMoreHoriz } from "react-icons/md";
 import Card from "./Card";
-import CardAdd from "./CardInput";
+import CardAdd from "./CardAdd";
 
 function CardList({ lists }) {
     const cards = [
