@@ -1,17 +1,16 @@
-import React from 'react';
-import TopHeader from './Trello-clone/Header';
-import BoaderHeader from './Trello-clone/BoaderHeader';
-import BoaderList from './Trello-clone/BoaderList';
+import React from "react";
+import TopHeader from "./components/Header/TopHeader";
+import CardLists from "./components/Card/CardLists";
+import Header from "./components/Header/Header";
 
 function App() {
-    return (
-        <>
-        <TopHeader/>
-        <BoaderHeader />
-        <BoaderList />
-        </>
-
-    );
+  return (
+    <>
+      <TopHeader />
+      <Header />
+      <CardLists />
+    </>
+  );
 }
 
 export default App;
