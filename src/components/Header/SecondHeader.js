@@ -5,10 +5,10 @@ import { FaSlack, FaConciergeBell } from "react-icons/fa";
 import { AiOutlineTeam } from "react-icons/ai";
 import { MdMoreHoriz } from "react-icons/md";
 
-function Header() {
+function SecondHeader() {
 
     return (
-        <Detail>
+        <Header>
             <LeftBtn>
                 <TeamName>Hanlight_V2</TeamName>
                 <HeaderBtn>
@@ -60,11 +60,11 @@ function Header() {
                     <Text>Show Menu</Text>
                 </HeaderBtn>
             </RightBtn>
-        </Detail>
+        </Header>
     );
 }
 
-const Detail = styled.div`
+const Header = styled.div`
     display: flex;
     justify-content: space-between;
     background: hsla(0,0%,100%,.24);
@@ -188,4 +188,4 @@ const Circle = styled.div`
     }
 `;
 
-export default Header;
+export default SecondHeader;

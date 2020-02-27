@@ -1,9 +1,10 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { FiHome, FiSearch, FiMenu } from "react-icons/fi";
 import { MdAdd } from "react-icons/md";
-import { FaTrello, FaRegBell } from "react-icons/fa";
+import { FaTrello } from "react-icons/fa";
 import { IoIosInformationCircleOutline } from "react-icons/io";
+import { AiOutlineBell } from "react-icons/ai";
 
 function TopHeader() {
     return(
@@ -35,7 +36,7 @@ function TopHeader() {
                         <IoIosInformationCircleOutline />
                     </TopBtn>
                     <TopBtn>
-                        <FaRegBell />
+                        <AiOutlineBell />
                     </TopBtn>
                     <User>황</User>
                 </RightBtn>
@@ -48,9 +49,7 @@ const Header = styled.div`
     display: flex;
     align-content: center;
     background: #445b6a;
-    width: 1910px;
-    height: 2rem;
-    padding: 5px;
+    padding: 4px;
     position: fixed;
     font-weight: 700;
 `;
@@ -58,6 +57,7 @@ const Header = styled.div`
 const LeftBtn = styled.div`
     display: flex;
     justify-content: flex-start;
+
     width: 49rem;
 `;
 
