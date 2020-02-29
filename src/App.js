@@ -1,6 +1,6 @@
 import React from "react";
 import TopHeader from "./components/Header/TopHeader";
-import CardLists from "./components/Card/CardLists";
+import CardListTemplate from "./components/Card/CardListTemplate";
 import Header from "./components/Header/SecondHeader";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <TopHeader />
       <Header />
-      <CardLists />
+      <CardListTemplate />
     </>
   );
 }
